@@ -1,13 +1,13 @@
 ### Boot into kali Live Persistance
 
-Open kali terminal and then type ```lsblk```
+Open kali terminal and then type ```fdisk -l```
 
 then find for your usb drive and see its name like ```/dev/sd?```
 
 after that type
 
-```mkdir -p /mnt/fuckyou```
+```mkdir -p /mnt/iamnull```
 
-```mount /dev/sd? /mnt/fuckyou```
+```mount /dev/sdb2 /mnt/iamnull```
 
-```echo "/ union" > /mnt/fuckyou/persistance.conf```
+```echo "/ union" > /mnt/iamnull/persistence.conf```
