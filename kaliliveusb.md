@@ -10,4 +10,4 @@ after that type
 
 ```mount /dev/sd? /mnt/fuckyou```
 
-```echo "/ union"> /mnt/fuckyou/persistance.conf```
+```echo "/ union" > /mnt/fuckyou/persistance.conf```
